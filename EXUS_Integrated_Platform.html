@@ -1,316 +1,1650 @@
-<html><body><p>Updated content</p></body></html>
- 
-EXUS
-The Integrated Energy-Digital Platform
 
-Why Combining Exus Renewables and Exus Digital Creates a Structurally Differentiated Position in European Data Centre Infrastructure
-Board of Directors & Investment Committee  |  March 2026  |  Strictly Private & Confidential
-1
-STRICTLY PRIVATE & CONFIDENTIAL
-EXECUTIVE SUMMARY
-Power Is the New Land
-The binding constraint for European data centre growth is not capital, not land, not permits — it is power. Exus is the only European player built to solve it.
-EU DC GROWTH TO 2030
-10→35 GW
-McKinsey 2024
-CUMULATIVE INVESTMENT
-€176bn
-EUDCA 2026–2031
-POWER AS #1 CONSTRAINT
-67%
-EUDCA DC Operator Survey
-EXUS ENERGY COST REDUCTION
-40–60%
-Exus Proprietary TCO Model
-Exus is the only European player that combines integrated power origination, energy generation and storage, infrastructure development capability, and digital infrastructure delivery within a single platform. This document explains why this integration is the core strategic thesis of Exus 3.0.
-2
-STRICTLY PRIVATE & CONFIDENTIAL
-THE CORE THESIS
-Two Paradigms in Data Centre Energy
-The fundamental distinction: scope of development. Traditional players develop within the DC perimeter. Exus builds the energy ecosystem around it.
-THE MARKET STANDARD
-Traditional Developer
-Hyperscaler · Neo-Cloud · RE Developer
-DC LAND PERIMETER
-Data Centre Campus
-Entitled Land + Building + IT Infrastructure
-→
-Grid — Power purchased via PPAs
-→
-7–10 year connection queues in FLAP-D
-⚠ Grid-dependent · Curtailment-exposed · No energy cost edge · Procurement-only approach
-VS
-THE EXUS APPROACH
-Integrated Energy Island
-Behind-the-Meter · Beyond the DC Perimeter
-ENERGY ISLAND — FULL ENERGY PERIMETER
-Data Centre Campus
-☀ Solar
-💨 Wind
-🔋 BESS
-⚡ Substation
-🔥 Gas Peaker
-📊 EMS
-↔
-Grid — Supplementary + export revenue
-⚡
-Sub-24 month speed-to-power
-✓ Curtailment-proof · 40–60% cost reduction · Owned generation · Single counterparty
-3
-STRICTLY PRIVATE & CONFIDENTIAL
-COMPETITIVE POSITIONING
-Capability Matrix: 300 MW+ Hyperscale DC Market
-No other European player achieves strong positioning across all five dimensions.
-PLAYER TYPE
-POWER CONTROL
-SPEED TO POWER
-INFRA CAPABILITY
-SINGLE COUNTERPARTY
-ENERGY COST EDGE
-KEY GAP
-DC Operators
-Equinix · Digital Realty · CyrusOne
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EXUS — The Integrated Energy-Digital Platform</title>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Montserrat:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+:root {
+  --teal-core: #009CB8;
+  --teal-dark: #00768A;
+  --teal-deeper: #005B6C;
+  --teal-muted: #2C868E;
+  --near-black: #080808;
+  --deep-navy: #002E35;
+  --dark-teal: #004551;
+  --soft-teal: #EAF5F7;
+  --light-gray: #F2F2F2;
+  --pale-teal: #CDEDEF;
+  --med-gray: #939393;
+  --light-border: #D9D9D9;
+  --amber: #E8A838;
+  --red-accent: #D94F4F;
+  --green-accent: #2ECC71;
+}
 
+* { margin: 0; padding: 0; box-sizing: border-box; }
 
+body {
+  font-family: 'Lato', sans-serif;
+  color: var(--near-black);
+  background: #fff;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
 
+/* === SLIDE SYSTEM === */
+.slide {
+  min-height: 100vh;
+  padding: 60px 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
 
+.slide::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 80px;
+  right: 80px;
+  height: 1px;
+  background: var(--light-border);
+}
 
-Grid-dependent, no energy cost edge
-Pure IPPs / Utilities
-RWE · Enel · Lightsource BP
+.slide-dark {
+  background: var(--deep-navy);
+  color: #fff;
+}
 
+.slide-dark::after { background: rgba(255,255,255,0.1); }
 
+.slide-teal {
+  background: linear-gradient(135deg, var(--teal-deeper) 0%, var(--deep-navy) 100%);
+  color: #fff;
+}
 
+.slide-soft {
+  background: var(--soft-teal);
+}
 
+/* === TYPOGRAPHY === */
+h1, h2, h3, h4 { font-family: 'Montserrat', sans-serif; }
 
-No infrastructure delivery capability
-Hyperscalers
-Microsoft · Google · Meta · AWS
+.slide-title {
+  font-size: 2.8rem;
+  font-weight: 800;
+  color: var(--deep-navy);
+  margin-bottom: 8px;
+  letter-spacing: -0.5px;
+}
 
+.slide-dark .slide-title,
+.slide-teal .slide-title { color: #fff; }
 
+.slide-subtitle {
+  font-size: 1.1rem;
+  color: var(--teal-dark);
+  font-weight: 400;
+  margin-bottom: 40px;
+  max-width: 700px;
+}
 
+.slide-dark .slide-subtitle,
+.slide-teal .slide-subtitle { color: var(--pale-teal); }
 
+.section-label {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: var(--teal-core);
+  margin-bottom: 12px;
+}
 
-Self-serve only, 18–36mo timelines
-Real Estate / Powered Land
-ACS · Goodman · STACK
+.slide-dark .section-label,
+.slide-teal .section-label { color: var(--amber); }
 
+p.body-text {
+  font-size: 1.05rem;
+  line-height: 1.75;
+  color: var(--near-black);
+  max-width: 800px;
+  margin-bottom: 20px;
+}
 
+.slide-dark p.body-text { color: rgba(255,255,255,0.85); }
 
+.highlight { color: var(--teal-core); font-weight: 700; }
+.slide-dark .highlight { color: var(--amber); }
 
+/* === COVER === */
+.cover {
+  background: linear-gradient(160deg, var(--deep-navy) 0%, #001820 50%, var(--teal-deeper) 100%);
+  color: #fff;
+  text-align: center;
+  position: relative;
+}
 
-No integrated energy; land-only play
-Neoclouds
-CoreWeave · Lambda · Nebius
+.cover::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  right: -20%;
+  width: 800px;
+  height: 800px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(0,156,184,0.15) 0%, transparent 70%);
+}
 
+.cover::after { display: none; }
 
+.cover-brand {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 5rem;
+  font-weight: 900;
+  letter-spacing: 8px;
+  background: linear-gradient(135deg, var(--teal-core) 0%, var(--pale-teal) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 16px;
+}
 
+.cover-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 12px;
+}
 
+.cover-sub {
+  font-size: 1.1rem;
+  color: var(--pale-teal);
+  max-width: 600px;
+  margin: 0 auto 40px;
+  line-height: 1.6;
+}
 
-Fragile supply chain, no owned assets
-Exus Digital
-Integrated Platform
+.cover-meta {
+  font-size: 0.85rem;
+  color: var(--med-gray);
+  letter-spacing: 1px;
+}
 
+.cover-divider {
+  width: 60px;
+  height: 3px;
+  background: var(--teal-core);
+  margin: 30px auto;
+}
 
+/* === KPI CARDS === */
+.kpi-row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  margin: 30px 0;
+}
 
+.kpi-card {
+  background: var(--deep-navy);
+  border-radius: 12px;
+  padding: 28px 20px;
+  text-align: center;
+  border: 1px solid var(--dark-teal);
+  transition: transform 0.2s;
+}
 
+.kpi-card:hover { transform: translateY(-2px); }
 
-Integrated platform: land + power + grid
+.kpi-label {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--pale-teal);
+  margin-bottom: 8px;
+}
 
-Strong
+.kpi-value {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.2rem;
+  font-weight: 800;
+  color: var(--teal-core);
+  margin-bottom: 4px;
+}
 
-Partial
+.kpi-source {
+  font-size: 0.7rem;
+  color: var(--med-gray);
+}
 
-Weak / None
-4
-STRICTLY PRIVATE & CONFIDENTIAL
-COMPETITIVE LANDSCAPE
-Where the Key Players Sit
-Mapping energy generation ownership against DC/powered land development capability. Only a handful of players integrate both — and Exus is the only one in Europe.
+/* === SIDE-BY-SIDE COMPARISON === */
+.comparison-container {
+  display: grid;
+  grid-template-columns: 1fr 60px 1fr;
+  gap: 0;
+  align-items: stretch;
+  margin: 30px 0;
+}
 
+.comparison-panel {
+  border-radius: 16px;
+  padding: 36px 32px;
+  position: relative;
+}
 
-ENERGY-ONLY PLAYERS
-FULL-STACK INTEGRATED
-COMMODITY PARTICIPANTS
-DC-ONLY DEVELOPERS
-INTEGRATED BTM + POWERED LAND
-SB Energy
-SB Energy
-15+ GW pipeline · Full-stack
-Intersect
-Power
-Intersect Power
-Acquired by Google · $4.75bn
-EXUS
-EXUS
-4.1 GW owned · ~4 GW DC pipeline
-Crusoe
-Crusoe Energy
-Energy-first · 45 GW pipeline
-Brook-
-field
-Brookfield
-$100bn AI program · Separate ops
-AES
-AES Corp.
-11.8 GW signed · Utility pivot
-RWE
-RWE
-~10 GW US · $20bn expansion
-Total
-Energies
-TotalEnergies
-"Clean Firm Power" model
-Enel
-Enel GP
-68 GW global · BtM services
-LSbp
-Lightsource BP
-58 GW pipeline · Pure renewables
-Equinix
-Equinix
-268 DCs · 96% renewable PPAs
-Digital
-Realty
-Digital Realty
-185+ DCs · PPA-dependent
-STACK
-STACK Infra
-Powered land · External energy
-Vntg
-Vantage
-BtM partnerships only
-Edge
-EdgeConneX
-80+ DCs · Green focus
-Core
-Weave
-CoreWeave
-590 MW leased · GPUaaS
-Nebius
-Nebius
-800 MW target · Hybrid
-Lmb
-Lambda
-Flexible · On-prem hybrid
+.panel-traditional {
+  background: var(--light-gray);
+  border: 2px solid var(--light-border);
+}
 
-Integrated Energy + DC
+.panel-exus {
+  background: linear-gradient(135deg, var(--deep-navy) 0%, var(--teal-deeper) 100%);
+  color: #fff;
+  border: 2px solid var(--teal-core);
+  box-shadow: 0 8px 32px rgba(0,156,184,0.2);
+}
 
-Energy-Focused (no DC ops)
+.panel-vs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
-DC Operator (no owned energy)
+.vs-badge {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: var(--amber);
+  color: var(--near-black);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  font-size: 0.85rem;
+  z-index: 1;
+}
 
-Neocloud (leased infra)
-5
-STRICTLY PRIVATE & CONFIDENTIAL
-GLOBAL CONTEXT
-EXUS in Global Context: The SB Energy Parallel
-SB Energy (SoftBank) is the closest global comparable — but focused on the US and extending through to full DC operations. Exus is the European equivalent, focused up to powered land.
-DIMENSION
-SB ENERGY (US)
-EXUS (EUROPE)
-KEY DIFFERENCE
-Scope
-Full end-to-end: energy → DC construction → DC operations (acquired Studio 151)
-Energy → powered land → BTM architecture. Does not build/operate the DC itself
-Exus focuses up to powered land delivery; SB Energy extends through DC operations
-Energy Portfolio
-3 GW operating solar, 15+ GW pipeline, 12 GWh+ BESS, gas (9.2 GW Ohio)
-4.1 GW owned across 6 markets, 3.3 GW managed, multi-tech (solar, wind, BESS, gas)
-Comparable operating scale; Exus more diversified across technologies and geographies
-DC Pipeline
-Stargate 1.2 GW (OpenAI anchor tenant), additional campuses planned
-~3.4 GW across 4 projects, 4 countries (Setubal, Belchatów, Hohe Börde, Valeon)
-Exus has broader geographic spread across Europe; SB Energy concentrated in Texas
-BTM Approach
-Full BTM Solar + BESS co-located with DC campus
-Full BTM "Energy Island" — solar, wind, BESS, gas, substation around DC perimeter
-Exus adds Industrial Solutions orchestration layer across 4 supply sources
-Backing
-SoftBank Group; $1B equity from OpenAI + SoftBank (Jan 2026)
-Partners Group (since Nov 2023); independent platform with own capital recycling
-SB Energy depends on SoftBank capital; Exus self-finances via ER rotation
-Market
-US only (Texas primary, Ohio expansion)
-Pan-European: Portugal, Poland, Germany, UK, Italy, Spain
-Exus is the only player replicating this model across multiple European markets
-Integration Model
-Vertical: owns energy + builds DC + operates DC
-Platform: owns energy + develops powered land + orchestrates energy solution for DC client
-Exus is an energy orchestrator; SB Energy is a vertically integrated operator
-SB Energy validates the model globally. EXUS is building the European version — but with a more sophisticated energy orchestration layer (Industrial Solutions) and without the operational overhead of DC construction and management. The focus on powered land delivery captures the highest-margin, most defensible part of the value chain.
-6
-STRICTLY PRIVATE & CONFIDENTIAL
-INDUSTRIAL SOLUTIONS
-The Orchestration Engine: Four Supply Layers
-Industrial Solutions fills the full 24/7 demand profile by aggregating four supply layers into one shaped, bankable energy product.
-01
-Behind-the-Meter (BTM)
-Co-located energy assets at site — solar, wind, BESS, gas peakers. Lowest cost, full price certainty. This is the Energy Island foundation.
-02
-Exus IPP Portfolio
-4.1 GW of owned operating assets connected through the grid via structured PPAs — direct supply capacity from Exus Renewables.
-03
-Third-Party Managed Assets
-3.3 GW surplus capacity from Exus-managed external portfolios — additional supply optionality and hedging capability.
-04
-Market Contracts & Real-Time Trading
-Residual shaping via standard PPAs, spot markets, grid integration — real-time optimisation fills remaining load gaps.
-Industrial Solutions controls the aggregation logic across all four layers. The PPA is the commercial expression of the technical system — Exus does not sell electrons; it designs bankable energy ecosystems translated into contractual structures.
-7
-STRICTLY PRIVATE & CONFIDENTIAL
-PLATFORM VALUE CREATION
-The Self-Reinforcing Flywheel
-ER + ED creates four structural dependencies that would not exist in a standalone configuration.
-01
-Balance Sheet Support
-ED's competitive positioning begins with credible grid bonds. The EUR 21.1M bond for Setubal was underwritten by ER's contracted revenue base. Less than EUR 5M of ~EUR 30M deployed is drawn cash equity.
-EUR 21.1M grid bond
-02
-Energy Cost Advantage
-The 40–60% energy cost reduction is the direct output of Exus's proprietary TCO modelling and owned generation. For a 1 GW campus, this saves over €1bn/year vs. standard grid procurement.
-~58% cost reduction
-03
-Capital Recycling
-ER's develop-to-rotate model funds ED's DevEx. BESS established the develop-to-exit precedent; Skyward is the next rotation. Without ER, ED requires permanent external equity at higher cost.
-Self-financing engine
-04
-Shock Absorption
-ED carries binary monetisation risk. ER's 4.1 GW asset base absorbs project-level failures. A standalone ED entity would be existentially exposed to a single early-stage failure.
-4.1 GW asset base
-ER does not exist to supply ED. The portfolios were built on their own merits, for their own clients. What makes the combination valuable is the platform layer: balance sheet, TSO access, local teams, energy structuring capability, and capital recycling.
-8
-STRICTLY PRIVATE & CONFIDENTIAL
-TRANSACTION EVIDENCE
-The Market Is Validating This Model
-Every major transaction in 2024–2026 confirms the premium for integrated energy-digital platforms.
-GOOGLE → INTERSECT POWER
-$4.75bn
-Dec 2025 · Integrated energy + DC parks
-GIP/EQT → AES CORP.
-$33.4bn
-Mar 2026 · Clean power for hyperscalers
-OPENAI + SOFTBANK → SB ENERGY
-$1.0bn
-Jan 2026 · Stargate powered DC campus
-POWERED LAND VALUATION
-€0.5–1.5M/MW
-ACS/GIP benchmark · Pre-construction
-Power sector M&A in 2025 reached $141.9 billion across 35 deals — a 5x increase from $28 billion in 2024. Leading infrastructure investors — KKR, EQT, Brookfield, Blackstone — are converging at the energy-digital nexus, deploying capital into platforms that combine power origination, flexibility, and infrastructure delivery rather than standalone assets.
-The message is clear: the market is paying a structural premium for companies that own the full energy value chain behind data centres. Exus is the only European platform positioned to capture this premium.
-9
-STRICTLY PRIVATE & CONFIDENTIAL
-STRATEGIC IMPLICATIONS
-Three Imperatives for the Board
-The integrated platform thesis is validated by execution and by the market. These are the priorities.
-1
-Protect the Integration
-The ER + ED platform synergy is the core competitive moat. Any structural separation of the energy-digital interface would eliminate the very advantages that position Exus uniquely. Industrial Solutions must remain the central orchestrator connecting development, commercial, and operational capabilities.
-2
-Scale the Energy Island Model
-The Hohe Börde framework should become the standard playbook across all ED pipeline sites. Each new campus should be developed with its full BTM energy architecture from day one. The Phase 3 pipeline (demand-aligned development) embeds this logic already — accelerate it.
-3
-Communicate the Thesis Externally
-The powered land asset class is attracting massive institutional capital. Exus's differentiation — integrated energy solution, not just grid access — must be clearly articulated to hyperscaler clients, investment partners, and capital allocators. The competitive frameworks in this document provide the positioning architecture.
-The integrated model is not a strategy choice — it is the strategy. ED is an extension of ER into a segment where the platform's existing capabilities create exceptional value. Very few are doing this globally. In Europe, only Exus.
-10
+.panel-tag {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.6rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.panel-traditional .panel-tag { color: var(--med-gray); }
+.panel-exus .panel-tag { color: var(--amber); }
+
+.panel-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.panel-traditional .panel-title { color: var(--near-black); }
+.panel-exus .panel-title { color: #fff; }
+
+/* Perimeter diagram */
+.perimeter-diagram {
+  position: relative;
+  padding: 24px;
+  border-radius: 12px;
+  margin: 16px 0;
+  min-height: 200px;
+}
+
+.perimeter-narrow {
+  border: 2px dashed var(--med-gray);
+  background: #fff;
+}
+
+.perimeter-wide {
+  border: 2px solid var(--teal-core);
+  background: rgba(0,156,184,0.08);
+}
+
+.perimeter-label {
+  position: absolute;
+  top: -10px;
+  left: 20px;
+  background: inherit;
+  padding: 0 8px;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.perimeter-narrow .perimeter-label {
+  color: var(--med-gray);
+  background: var(--light-gray);
+}
+
+.perimeter-wide .perimeter-label {
+  color: var(--teal-core);
+  background: var(--deep-navy);
+}
+
+.dc-core {
+  text-align: center;
+  padding: 16px;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 0.85rem;
+  margin-bottom: 12px;
+}
+
+.panel-traditional .dc-core {
+  background: var(--light-gray);
+  border: 1px solid var(--light-border);
+  color: var(--near-black);
+}
+
+.panel-exus .dc-core {
+  background: rgba(0,156,184,0.2);
+  border: 1px solid var(--teal-core);
+  color: var(--teal-core);
+}
+
+.asset-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+  margin: 12px 0;
+}
+
+.asset-chip {
+  font-size: 0.7rem;
+  font-weight: 600;
+  padding: 6px 8px;
+  border-radius: 6px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.panel-exus .asset-chip {
+  background: rgba(0,156,184,0.15);
+  color: var(--pale-teal);
+  border: 1px solid rgba(0,156,184,0.3);
+}
+
+.arrow-out {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 12px 0;
+  font-size: 0.8rem;
+}
+
+.arrow-out .arrow { color: var(--med-gray); font-size: 1.2rem; }
+.panel-exus .arrow-out .arrow { color: var(--teal-core); }
+
+.panel-outcome {
+  margin-top: 16px;
+  padding: 12px 16px;
+  border-radius: 8px;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.panel-traditional .panel-outcome {
+  background: #fff;
+  border-left: 3px solid var(--red-accent);
+  color: var(--near-black);
+}
+
+.panel-exus .panel-outcome {
+  background: rgba(46,204,113,0.1);
+  border-left: 3px solid var(--green-accent);
+  color: #fff;
+}
+
+/* === COMPETITIVE MATRIX === */
+.matrix-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  border-radius: 12px;
+  overflow: hidden;
+  margin: 24px 0;
+  font-size: 0.85rem;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.06);
+}
+
+.matrix-table thead th {
+  background: var(--deep-navy);
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 0.7rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding: 14px 12px;
+  text-align: center;
+}
+
+.matrix-table thead th:first-child { text-align: left; padding-left: 20px; }
+.matrix-table thead th:last-child { text-align: left; }
+
+.matrix-table tbody td {
+  padding: 12px;
+  text-align: center;
+  border-bottom: 1px solid var(--light-border);
+  vertical-align: middle;
+}
+
+.matrix-table tbody td:first-child {
+  text-align: left;
+  padding-left: 20px;
+  font-weight: 700;
+  color: var(--teal-dark);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.8rem;
+}
+
+.matrix-table tbody td:last-child {
+  text-align: left;
+  font-size: 0.78rem;
+  color: var(--med-gray);
+  max-width: 200px;
+}
+
+.matrix-table tbody tr:hover { background: var(--soft-teal); }
+
+.matrix-table tbody tr.row-exus {
+  background: linear-gradient(90deg, rgba(0,156,184,0.08) 0%, rgba(0,156,184,0.03) 100%);
+}
+
+.matrix-table tbody tr.row-exus td:first-child { color: var(--teal-core); }
+.matrix-table tbody tr.row-exus td:last-child { color: var(--teal-core); font-weight: 600; }
+
+.dot {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+
+.dot-strong { background: var(--teal-core); }
+.dot-partial { background: var(--amber); }
+.dot-weak { background: transparent; border: 2px solid var(--light-border); }
+
+/* === LANDSCAPE MAP === */
+.landscape-container {
+  position: relative;
+  width: 100%;
+  height: 560px;
+  background: var(--light-gray);
+  border-radius: 16px;
+  margin: 24px 0;
+  overflow: hidden;
+  border: 1px solid var(--light-border);
+}
+
+.landscape-axis-x {
+  position: absolute;
+  bottom: 30px;
+  left: 80px;
+  right: 40px;
+  height: 2px;
+  background: var(--med-gray);
+}
+
+.landscape-axis-x::before {
+  content: 'DC / Powered Land Development Capability';
+  position: absolute;
+  bottom: -22px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--med-gray);
+  white-space: nowrap;
+}
+
+.landscape-axis-x::after {
+  content: '→';
+  position: absolute;
+  right: -6px;
+  top: -8px;
+  font-size: 1rem;
+  color: var(--med-gray);
+}
+
+.landscape-axis-y {
+  position: absolute;
+  top: 20px;
+  bottom: 60px;
+  left: 80px;
+  width: 2px;
+  background: var(--med-gray);
+}
+
+.landscape-axis-y::before {
+  content: 'Energy Generation Ownership & BTM Capability';
+  position: absolute;
+  top: 50%;
+  left: -18px;
+  transform: rotate(-90deg) translateX(-50%);
+  transform-origin: left center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--med-gray);
+  white-space: nowrap;
+}
+
+.landscape-axis-y::after {
+  content: '↑';
+  position: absolute;
+  top: -10px;
+  left: -5px;
+  font-size: 1rem;
+  color: var(--med-gray);
+}
+
+/* Quadrant labels */
+.quadrant-label {
+  position: absolute;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.65rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: rgba(0,0,0,0.12);
+  pointer-events: none;
+}
+
+.q-tl { top: 40px; left: 100px; }
+.q-tr { top: 40px; right: 60px; }
+.q-bl { bottom: 65px; left: 100px; }
+.q-br { bottom: 65px; right: 60px; }
+
+/* Player bubbles */
+.player-bubble {
+  position: absolute;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  cursor: default;
+  transition: transform 0.2s, box-shadow 0.2s;
+  z-index: 2;
+}
+
+.player-bubble:hover {
+  transform: scale(1.12);
+  box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+  z-index: 10;
+}
+
+.player-bubble .bubble-label {
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  font-size: 0.65rem;
+  font-weight: 600;
+  color: var(--near-black);
+  pointer-events: none;
+}
+
+.player-bubble .bubble-sublabel {
+  position: absolute;
+  bottom: -34px;
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  font-size: 0.55rem;
+  font-weight: 400;
+  color: var(--med-gray);
+  pointer-events: none;
+}
+
+/* Tooltip */
+.player-bubble .tooltip {
+  display: none;
+  position: absolute;
+  bottom: calc(100% + 12px);
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--deep-navy);
+  color: #fff;
+  padding: 10px 14px;
+  border-radius: 8px;
+  font-size: 0.72rem;
+  font-weight: 400;
+  white-space: nowrap;
+  z-index: 100;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.2);
+}
+
+.player-bubble .tooltip::after {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 6px solid transparent;
+  border-top-color: var(--deep-navy);
+}
+
+.player-bubble:hover .tooltip { display: block; }
+
+/* Bubble types */
+.bubble-integrated {
+  background: linear-gradient(135deg, var(--teal-core), var(--teal-deeper));
+  color: #fff;
+  box-shadow: 0 2px 12px rgba(0,156,184,0.3);
+}
+
+.bubble-energy {
+  background: var(--amber);
+  color: var(--near-black);
+}
+
+.bubble-dc {
+  background: var(--med-gray);
+  color: #fff;
+}
+
+.bubble-neocloud {
+  background: #6C5CE7;
+  color: #fff;
+}
+
+.bubble-exus {
+  background: linear-gradient(135deg, var(--teal-core), var(--teal-dark));
+  color: #fff;
+  border: 3px solid var(--amber);
+  box-shadow: 0 0 0 4px rgba(232,168,56,0.3), 0 4px 20px rgba(0,156,184,0.4);
+  z-index: 5;
+}
+
+/* Highlight zone */
+.highlight-zone {
+  position: absolute;
+  border: 2px dashed var(--teal-core);
+  border-radius: 20px;
+  background: rgba(0,156,184,0.04);
+  z-index: 1;
+}
+
+.zone-label {
+  position: absolute;
+  top: 8px;
+  right: 12px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.6rem;
+  font-weight: 700;
+  color: var(--teal-core);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+/* === FOUR LAYERS === */
+.layers-visual {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  margin: 24px 0;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.layer-bar {
+  padding: 20px 28px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.layer-num {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  font-weight: 800;
+  opacity: 0.3;
+  min-width: 50px;
+}
+
+.layer-content h4 {
+  font-size: 0.95rem;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.layer-content p {
+  font-size: 0.82rem;
+  opacity: 0.85;
+  line-height: 1.5;
+}
+
+.layer-1 { background: var(--teal-deeper); color: #fff; }
+.layer-2 { background: var(--teal-dark); color: #fff; }
+.layer-3 { background: var(--teal-core); color: #fff; }
+.layer-4 { background: var(--pale-teal); color: var(--deep-navy); }
+
+/* === FLYWHEEL === */
+.flywheel-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px 0;
+}
+
+.flywheel {
+  position: relative;
+  width: 480px;
+  height: 480px;
+}
+
+.flywheel-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--teal-core), var(--teal-deeper));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+  box-shadow: 0 4px 24px rgba(0,156,184,0.3);
+  z-index: 3;
+}
+
+.flywheel-center .fw-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.95rem;
+  font-weight: 800;
+  margin-bottom: 4px;
+}
+
+.flywheel-center .fw-sub {
+  font-size: 0.65rem;
+  color: var(--pale-teal);
+  line-height: 1.3;
+}
+
+.fw-node {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.65rem;
+  font-weight: 700;
+  line-height: 1.25;
+  padding: 12px;
+  z-index: 2;
+  transition: transform 0.2s;
+}
+
+.fw-node:hover { transform: scale(1.08); }
+
+.fw-node-1 { top: -10px; left: 50%; transform: translateX(-50%); background: var(--deep-navy); color: #fff; border: 2px solid var(--teal-core); }
+.fw-node-2 { top: 70px; right: -10px; background: var(--teal-deeper); color: #fff; }
+.fw-node-3 { bottom: 70px; right: -10px; background: var(--teal-dark); color: #fff; }
+.fw-node-4 { bottom: -10px; left: 50%; transform: translateX(-50%); background: var(--teal-core); color: #fff; }
+.fw-node-5 { bottom: 70px; left: -10px; background: var(--teal-muted); color: #fff; }
+.fw-node-6 { top: 70px; left: -10px; background: var(--dark-teal); color: #fff; }
+
+.fw-ring {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 340px;
+  height: 340px;
+  border-radius: 50%;
+  border: 2px dashed rgba(0,156,184,0.25);
+  z-index: 1;
+}
+
+.fw-annotations {
+  margin-left: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.fw-annotation {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  font-size: 0.82rem;
+}
+
+.fw-annotation .fw-arrow {
+  color: var(--teal-core);
+  font-size: 1rem;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.fw-annotation strong { color: var(--teal-deeper); }
+
+/* === CALLOUT === */
+.callout {
+  border-left: 4px solid var(--teal-core);
+  background: var(--soft-teal);
+  padding: 20px 28px;
+  border-radius: 0 12px 12px 0;
+  margin: 24px 0;
+  max-width: 800px;
+}
+
+.callout p {
+  font-size: 1rem;
+  color: var(--deep-navy);
+  font-style: italic;
+  line-height: 1.7;
+}
+
+.callout-dark {
+  background: var(--dark-teal);
+  border-left-color: var(--amber);
+}
+
+.callout-dark p { color: var(--pale-teal); }
+
+/* === LEGEND === */
+.legend-row {
+  display: flex;
+  gap: 24px;
+  margin: 16px 0;
+  flex-wrap: wrap;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.75rem;
+  color: var(--med-gray);
+}
+
+.legend-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+/* === TWO-COL LAYOUT === */
+.two-col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  margin: 20px 0;
+}
+
+.two-col-wide {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 40px;
+  margin: 20px 0;
+}
+
+/* === DEPENDENCY CARDS === */
+.dep-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  margin: 24px 0;
+}
+
+.dep-card {
+  border-radius: 12px;
+  padding: 24px;
+  border: 1px solid var(--light-border);
+  background: #fff;
+}
+
+.dep-card .dep-num {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: var(--pale-teal);
+  line-height: 1;
+  margin-bottom: 8px;
+}
+
+.dep-card h4 {
+  font-size: 0.95rem;
+  color: var(--teal-deeper);
+  margin-bottom: 8px;
+}
+
+.dep-card p {
+  font-size: 0.82rem;
+  color: var(--near-black);
+  line-height: 1.6;
+}
+
+.dep-card .dep-stat {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.3rem;
+  font-weight: 800;
+  color: var(--teal-core);
+  margin-top: 8px;
+}
+
+/* === SB ENERGY COMPARISON === */
+.compare-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  border-radius: 12px;
+  overflow: hidden;
+  margin: 20px 0;
+  font-size: 0.82rem;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+}
+
+.compare-table th {
+  background: var(--deep-navy);
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 0.7rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding: 12px 16px;
+  text-align: left;
+}
+
+.compare-table td {
+  padding: 12px 16px;
+  border-bottom: 1px solid var(--light-border);
+  vertical-align: top;
+}
+
+.compare-table tbody tr:nth-child(even) { background: var(--soft-teal); }
+
+.badge {
+  display: inline-block;
+  padding: 3px 10px;
+  border-radius: 12px;
+  font-size: 0.68rem;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.badge-yes { background: rgba(0,156,184,0.12); color: var(--teal-deeper); }
+.badge-partial { background: rgba(232,168,56,0.15); color: #B8860B; }
+.badge-no { background: rgba(217,79,79,0.1); color: var(--red-accent); }
+
+/* === PAGE NUMBER === */
+.page-number {
+  position: absolute;
+  bottom: 20px;
+  right: 40px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.7rem;
+  color: var(--med-gray);
+}
+
+.slide-dark .page-number,
+.slide-teal .page-number { color: rgba(255,255,255,0.3); }
+
+/* === CONFIDENTIAL STAMP === */
+.confidential {
+  position: absolute;
+  top: 24px;
+  right: 40px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.6rem;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: var(--med-gray);
+  opacity: 0.5;
+}
+
+.slide-dark .confidential,
+.slide-teal .confidential { color: rgba(255,255,255,0.2); }
+
+/* === PRINT === */
+@media print {
+  .slide { page-break-after: always; min-height: auto; padding: 40px; }
+  .slide::after { display: none; }
+}
+</style>
+</head>
+<body>
+
+<!-- ============================= SLIDE 1: COVER ============================= -->
+<div class="slide cover">
+  <div class="cover-brand">EXUS</div>
+  <div class="cover-title">The Integrated Energy-Digital Platform</div>
+  <div class="cover-divider"></div>
+  <div class="cover-sub">
+    Why Combining Exus Renewables and Exus Digital Creates a Structurally Differentiated Position in European Data Centre Infrastructure
+  </div>
+  <div class="cover-meta">Board of Directors & Investment Committee &nbsp;|&nbsp; March 2026 &nbsp;|&nbsp; Strictly Private & Confidential</div>
+  <span class="page-number">1</span>
+</div>
+
+<!-- ============================= SLIDE 2: EXECUTIVE SUMMARY ============================= -->
+<div class="slide">
+  <span class="confidential">Strictly Private & Confidential</span>
+  <div class="section-label">Executive Summary</div>
+  <h1 class="slide-title">Power Is the New Land</h1>
+  <div class="slide-subtitle">The binding constraint for European data centre growth is not capital, not land, not permits — it is power. Exus is the only European player built to solve it.</div>
+
+  <div class="kpi-row">
+    <div class="kpi-card">
+      <div class="kpi-label">EU DC Growth to 2030</div>
+      <div class="kpi-value">10→35 GW</div>
+      <div class="kpi-source">McKinsey 2024</div>
+    </div>
+    <div class="kpi-card">
+      <div class="kpi-label">Cumulative Investment</div>
+      <div class="kpi-value">€176bn</div>
+      <div class="kpi-source">EUDCA 2026–2031</div>
+    </div>
+    <div class="kpi-card">
+      <div class="kpi-label">Power as #1 Constraint</div>
+      <div class="kpi-value">67%</div>
+      <div class="kpi-source">EUDCA DC Operator Survey</div>
+    </div>
+    <div class="kpi-card">
+      <div class="kpi-label">EXUS Energy Cost Reduction</div>
+      <div class="kpi-value">40–60%</div>
+      <div class="kpi-source">Exus Proprietary TCO Model</div>
+    </div>
+  </div>
+
+  <div class="callout">
+    <p>Exus is the only European player that combines integrated power origination, energy generation and storage, infrastructure development capability, and digital infrastructure delivery within a single platform. This document explains why this integration is the core strategic thesis of Exus 3.0.</p>
+  </div>
+  <span class="page-number">2</span>
+</div>
+
+<!-- ============================= SLIDE 3: TWO PARADIGMS ============================= -->
+<div class="slide">
+  <span class="confidential">Strictly Private & Confidential</span>
+  <div class="section-label">The Core Thesis</div>
+  <h1 class="slide-title">Two Paradigms in Data Centre Energy</h1>
+  <div class="slide-subtitle">The fundamental distinction: scope of development. Traditional players develop within the DC perimeter. Exus builds the energy ecosystem around it.</div>
+
+  <div class="comparison-container">
+    <!-- Traditional Panel -->
+    <div class="comparison-panel panel-traditional">
+      <div class="panel-tag">The Market Standard</div>
+      <div class="panel-title">Traditional Developer</div>
+      <div class="panel-title" style="font-size:0.85rem; color:var(--med-gray); margin-top:-14px; margin-bottom:16px;">Hyperscaler · Neo-Cloud · RE Developer</div>
+
+      <div class="perimeter-diagram perimeter-narrow">
+        <div class="perimeter-label">DC Land Perimeter</div>
+        <div class="dc-core">Data Centre Campus</div>
+        <div class="dc-core" style="background:#fff; font-size:0.75rem; font-weight:400;">Entitled Land + Building + IT Infrastructure</div>
+      </div>
+
+      <div class="arrow-out">
+        <span class="arrow">→</span>
+        <span><strong>Grid</strong> — Power purchased via PPAs</span>
+      </div>
+      <div class="arrow-out">
+        <span class="arrow">→</span>
+        <span>7–10 year connection queues in FLAP-D</span>
+      </div>
+
+      <div class="panel-outcome">
+        <span style="color:var(--red-accent);">⚠</span> Grid-dependent · Curtailment-exposed · No energy cost edge · Procurement-only approach
+      </div>
+    </div>
+
+    <!-- VS -->
+    <div class="panel-vs"><div class="vs-badge">VS</div></div>
+
+    <!-- EXUS Panel -->
+    <div class="comparison-panel panel-exus">
+      <div class="panel-tag">The EXUS Approach</div>
+      <div class="panel-title">Integrated Energy Island</div>
+      <div class="panel-title" style="font-size:0.85rem; color:var(--pale-teal); margin-top:-14px; margin-bottom:16px;">Behind-the-Meter · Beyond the DC Perimeter</div>
+
+      <div class="perimeter-diagram perimeter-wide">
+        <div class="perimeter-label">Energy Island — Full Energy Perimeter</div>
+        <div class="dc-core">Data Centre Campus</div>
+        <div class="asset-grid">
+          <div class="asset-chip">☀ Solar</div>
+          <div class="asset-chip">💨 Wind</div>
+          <div class="asset-chip">🔋 BESS</div>
+          <div class="asset-chip">⚡ Substation</div>
+          <div class="asset-chip">🔥 Gas Peaker</div>
+          <div class="asset-chip">📊 EMS</div>
+        </div>
+      </div>
+
+      <div class="arrow-out">
+        <span class="arrow">↔</span>
+        <span><strong>Grid</strong> — Supplementary + export revenue</span>
+      </div>
+      <div class="arrow-out">
+        <span class="arrow">⚡</span>
+        <span>Sub-24 month speed-to-power</span>
+      </div>
+
+      <div class="panel-outcome">
+        <span style="color:var(--green-accent);">✓</span> Curtailment-proof · 40–60% cost reduction · Owned generation · Single counterparty
+      </div>
+    </div>
+  </div>
+  <span class="page-number">3</span>
+</div>
+
+<!-- ============================= SLIDE 4: COMPETITIVE MATRIX ============================= -->
+<div class="slide">
+  <span class="confidential">Strictly Private & Confidential</span>
+  <div class="section-label">Competitive Positioning</div>
+  <h1 class="slide-title">Capability Matrix: 300 MW+ Hyperscale DC Market</h1>
+  <div class="slide-subtitle">No other European player achieves strong positioning across all five dimensions.</div>
+
+  <table class="matrix-table">
+    <thead>
+      <tr>
+        <th style="min-width:150px;">Player Type</th>
+        <th>Power Control</th>
+        <th>Speed to Power</th>
+        <th>Infra Capability</th>
+        <th>Single Counterparty</th>
+        <th>Energy Cost Edge</th>
+        <th style="min-width:200px;">Key Gap</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>DC Operators<br><span style="font-weight:400;font-size:0.7rem;color:var(--med-gray)">Equinix · Digital Realty · CyrusOne</span></td>
+        <td><span class="dot dot-weak"></span></td>
+        <td><span class="dot dot-partial"></span></td>
+        <td><span class="dot dot-strong"></span></td>
+        <td><span class="dot dot-strong"></span></td>
+        <td><span class="dot dot-weak"></span></td>
+        <td>Grid-dependent, no energy cost edge</td>
+      </tr>
+      <tr>
+        <td>Pure IPPs / Utilities<br><span style="font-weight:400;font-size:0.7rem;color:var(--med-gray)">RWE · Enel · Lightsource BP</span></td>
+        <td><span class="dot dot-strong"></span></td>
+        <td><span class="dot dot-weak"></span></td>
+        <td><span class="dot dot-weak"></span></td>
+        <td><span class="dot dot-weak"></span></td>
+        <td><span class="dot dot-partial"></span></td>
+        <td>No infrastructure delivery capability</td>
+      </tr>
+      <tr>
+        <td>Hyperscalers<br><span style="font-weight:400;font-size:0.7rem;color:var(--med-gray)">Microsoft · Google · Meta · AWS</span></td>
+        <td><span class="dot dot-partial"></span></td>
+        <td><span class="dot dot-weak"></span></td>
+        <td><span class="dot dot-strong"></span></td>
+        <td><span class="dot dot-weak"></span></td>
+        <td><span class="dot dot-partial"></span></td>
+        <td>Self-serve only, 18–36mo timelines</td>
+      </tr>
+      <tr>
+        <td>Real Estate / Powered Land<br><span style="font-weight:400;font-size:0.7rem;color:var(--med-gray)">ACS · Goodman · STACK</span></td>
+        <td><span class="dot dot-weak"></span></td>
+        <td><span class="dot dot-partial"></span></td>
+        <td><span class="dot dot-weak"></span></td>
+        <td><span class="dot dot-weak"></span></td>
+        <td><span class="dot dot-weak"></span></td>
+        <td>No integrated energy; land-only play</td>
+      </tr>
+      <tr>
+        <td>Neoclouds<br><span style="font-weight:400;font-size:0.7rem;color:var(--med-gray)">CoreWeave · Lambda · Nebius</span></td>
+        <td><span class="dot dot-weak"></span></td>
+        <td><span class="dot dot-strong"></span></td>
+        <td><span class="dot dot-weak"></span></td>
+        <td><span class="dot dot-weak"></span></td>
+        <td><span class="dot dot-weak"></span></td>
+        <td>Fragile supply chain, no owned assets</td>
+      </tr>
+      <tr class="row-exus">
+        <td>Exus Digital<br><span style="font-weight:400;font-size:0.7rem;color:var(--teal-core)">Integrated Platform</span></td>
+        <td><span class="dot dot-strong"></span></td>
+        <td><span class="dot dot-strong"></span></td>
+        <td><span class="dot dot-strong"></span></td>
+        <td><span class="dot dot-strong"></span></td>
+        <td><span class="dot dot-strong"></span></td>
+        <td>Integrated platform: land + power + grid</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="legend-row">
+    <div class="legend-item"><div class="legend-dot" style="background:var(--teal-core)"></div> Strong</div>
+    <div class="legend-item"><div class="legend-dot" style="background:var(--amber)"></div> Partial</div>
+    <div class="legend-item"><div class="legend-dot" style="background:transparent; border:2px solid var(--light-border)"></div> Weak / None</div>
+  </div>
+  <span class="page-number">4</span>
+</div>
+
+<!-- ============================= SLIDE 5: LANDSCAPE MAP ============================= -->
+<div class="slide">
+  <span class="confidential">Strictly Private & Confidential</span>
+  <div class="section-label">Competitive Landscape</div>
+  <h1 class="slide-title">Where the Key Players Sit</h1>
+  <div class="slide-subtitle">Mapping energy generation ownership against DC/powered land development capability. Only a handful of players integrate both — and Exus is the only one in Europe.</div>
+
+  <div class="landscape-container">
+    <!-- Axes built in CSS -->
+    <div class="landscape-axis-x"></div>
+    <div class="landscape-axis-y"></div>
+
+    <!-- Quadrant labels -->
+    <div class="quadrant-label q-tl">Energy-Only Players</div>
+    <div class="quadrant-label q-tr">Full-Stack Integrated</div>
+    <div class="quadrant-label q-bl">Commodity Participants</div>
+    <div class="quadrant-label q-br">DC-Only Developers</div>
+
+    <!-- Highlight zone for integrated players -->
+    <div class="highlight-zone" style="top:30px; right:30px; width:360px; height:260px;">
+      <div class="zone-label">Integrated BTM + Powered Land</div>
+    </div>
+
+    <!-- INTEGRATED PLAYERS (top-right) -->
+    <div class="player-bubble bubble-integrated" style="width:72px; height:72px; font-size:0.6rem; top:85px; right:190px;">
+      SB Energy
+      <div class="bubble-label">SB Energy</div>
+      <div class="bubble-sublabel">15+ GW pipeline · Full-stack</div>
+      <div class="tooltip">SB Energy (SoftBank) · 3 GW operating, 15+ GW pipeline<br>Full BTM solar+BESS+gas · Stargate 1.2 GW DC<br>Most comparable to EXUS model</div>
+    </div>
+
+    <div class="player-bubble bubble-integrated" style="width:64px; height:64px; font-size:0.55rem; top:105px; right:90px;">
+      Intersect<br>Power
+      <div class="bubble-label">Intersect Power</div>
+      <div class="bubble-sublabel">Acquired by Google · $4.75bn</div>
+      <div class="tooltip">Intersect Power (→ Google) · 10.8 GW pipeline<br>Microgrid + DC co-location model<br>2.2 GW solar, 2.4 GWh BESS</div>
+    </div>
+
+    <div class="player-bubble bubble-exus" style="width:82px; height:82px; font-size:0.65rem; top:60px; right:280px;">
+      EXUS
+      <div class="bubble-label" style="color:var(--teal-core); font-size:0.75rem;">EXUS</div>
+      <div class="bubble-sublabel" style="color:var(--teal-dark);">4.1 GW owned · ~4 GW DC pipeline</div>
+      <div class="tooltip">EXUS (Europe) · 4.1 GW ER + 3.4 GW ED pipeline<br>Industrial Solutions orchestrator · BTM architecture<br>Only integrated player focused on Europe</div>
+    </div>
+
+    <div class="player-bubble bubble-integrated" style="width:48px; height:48px; font-size:0.5rem; top:140px; right:60px;">
+      Crusoe
+      <div class="bubble-label">Crusoe Energy</div>
+      <div class="bubble-sublabel">Energy-first · 45 GW pipeline</div>
+      <div class="tooltip">Crusoe Energy · 3.4 GW power secured<br>45 GW pipeline · Energy-first site selection<br>Modular AI factories at stranded power</div>
+    </div>
+
+    <!-- HOLDING-LEVEL INTEGRATED (mid-right area) -->
+    <div class="player-bubble bubble-integrated" style="width:60px; height:60px; font-size:0.5rem; top:180px; right:200px; opacity:0.7;">
+      Brook-<br>field
+      <div class="bubble-label">Brookfield</div>
+      <div class="bubble-sublabel">$100bn AI program · Separate ops</div>
+      <div class="tooltip">Brookfield · Renewables + DC (Data4, Compass)<br>Vertically integrated at holding level<br>Operationally separate business units</div>
+    </div>
+
+    <!-- ENERGY PLAYERS (top-left area) -->
+    <div class="player-bubble bubble-energy" style="width:56px; height:56px; font-size:0.5rem; top:100px; left:150px;">
+      AES
+      <div class="bubble-label">AES Corp.</div>
+      <div class="bubble-sublabel">11.8 GW signed · Utility pivot</div>
+      <div class="tooltip">AES Corporation · Being acquired GIP/EQT $33.4bn<br>11.8 GW signed with tech · No DC development<br>Utility pivoting to hyperscale power supply</div>
+    </div>
+
+    <div class="player-bubble bubble-energy" style="width:50px; height:50px; font-size:0.5rem; top:130px; left:240px;">
+      RWE
+      <div class="bubble-label">RWE</div>
+      <div class="bubble-sublabel">~10 GW US · $20bn expansion</div>
+      <div class="tooltip">RWE · ~10 GW US portfolio<br>$20bn planned US investment<br>Gas peakers + renewables for DC, no DC ops</div>
+    </div>
+
+    <div class="player-bubble bubble-energy" style="width:52px; height:52px; font-size:0.5rem; top:60px; left:220px;">
+      Total<br>Energies
+      <div class="bubble-label">TotalEnergies</div>
+      <div class="bubble-sublabel">"Clean Firm Power" model</div>
+      <div class="tooltip">TotalEnergies · "Clean Firm Power" for DCs<br>Solar+wind+BESS+gas package<br>Google 1 GW PPA + 1.5 GW DC co-location</div>
+    </div>
+
+    <div class="player-bubble bubble-energy" style="width:44px; height:44px; font-size:0.45rem; top:80px; left:120px;">
+      Enel
+      <div class="bubble-label">Enel GP</div>
+      <div class="bubble-sublabel">68 GW global · BtM services</div>
+      <div class="tooltip">Enel Green Power · 68 GW globally<br>BtM battery storage for industrial<br>No DC development strategy</div>
+    </div>
+
+    <div class="player-bubble bubble-energy" style="width:42px; height:42px; font-size:0.45rem; top:150px; left:110px;">
+      LSbp
+      <div class="bubble-label">Lightsource BP</div>
+      <div class="bubble-sublabel">58 GW pipeline · Pure renewables</div>
+      <div class="tooltip">Lightsource BP · 58 GW pipeline<br>Pure utility-scale renewables developer<br>No DC integration, no BTM</div>
+    </div>
+
+    <!-- DC OPERATORS (bottom-right) -->
+    <div class="player-bubble bubble-dc" style="width:56px; height:56px; font-size:0.5rem; bottom:120px; right:100px;">
+      Equinix
+      <div class="bubble-label">Equinix</div>
+      <div class="bubble-sublabel">268 DCs · 96% renewable PPAs</div>
+      <div class="tooltip">Equinix · 268 facilities globally<br>96% renewable via PPAs · No owned generation<br>Bloom Energy fuel cells (100 MW) for backup only</div>
+    </div>
+
+    <div class="player-bubble bubble-dc" style="width:50px; height:50px; font-size:0.45rem; bottom:90px; right:180px;">
+      Digital<br>Realty
+      <div class="bubble-label">Digital Realty</div>
+      <div class="bubble-sublabel">185+ DCs · PPA-dependent</div>
+      <div class="tooltip">Digital Realty · 185+ facilities<br>1.5 GW renewable contracts (PPAs)<br>Sophisticated procurement, not energy owner</div>
+    </div>
+
+    <div class="player-bubble bubble-dc" style="width:44px; height:44px; font-size:0.42rem; bottom:140px; right:260px;">
+      STACK
+      <div class="bubble-label">STACK Infra</div>
+      <div class="bubble-sublabel">Powered land · External energy</div>
+      <div class="tooltip">STACK Infrastructure · Powered land concept<br>But energy sourced externally via PPAs<br>No owned generation</div>
+    </div>
+
+    <div class="player-bubble bubble-dc" style="width:42px; height:42px; font-size:0.42rem; bottom:80px; right:280px;">
+      Vntg
+      <div class="bubble-label">Vantage</div>
+      <div class="bubble-sublabel">BtM partnerships only</div>
+      <div class="tooltip">Vantage DC · Hyperscale operator<br>VoltaGrid microgrids partnership (1 GW+)<br>Third-party BtM, no owned generation</div>
+    </div>
+
+    <div class="player-bubble bubble-dc" style="width:38px; height:38px; font-size:0.42rem; bottom:130px; right:170px;">
+      Edge
+      <div class="bubble-label">EdgeConneX</div>
+      <div class="bubble-sublabel">80+ DCs · Green focus</div>
+      <div class="tooltip">EdgeConneX · 80+ DCs globally<br>100% renewable procurement<br>AI-driven hourly matching, not energy owner</div>
+    </div>
+
+    <!-- NEOCLOUDS (bottom-left) -->
+    <div class="player-bubble bubble-neocloud" style="width:46px; height:46px; font-size:0.45rem; bottom:100px; left:170px;">
+      Core<br>Weave
+      <div class="bubble-label">CoreWeave</div>
+      <div class="bubble-sublabel">590 MW leased · GPUaaS</div>
+      <div class="tooltip">CoreWeave · 590 MW (leased from colos)<br>Pure GPU-as-a-service · No energy ownership<br>$34bn off-balance-sheet leases</div>
+    </div>
+
+    <div class="player-bubble bubble-neocloud" style="width:40px; height:40px; font-size:0.42rem; bottom:80px; left:240px;">
+      Nebius
+      <div class="bubble-label">Nebius</div>
+      <div class="bubble-sublabel">800 MW target · Hybrid</div>
+      <div class="tooltip">Nebius · 800 MW-1 GW target by 2026<br>Building owned DCs with power planning<br>$6B+ cash, hybrid ownership model</div>
+    </div>
+
+    <div class="player-bubble bubble-neocloud" style="width:36px; height:36px; font-size:0.42rem; bottom:120px; left:130px;">
+      Lmb
+      <div class="bubble-label">Lambda</div>
+      <div class="bubble-sublabel">Flexible · On-prem hybrid</div>
+      <div class="tooltip">Lambda Labs · GPU cloud + on-prem<br>Flexible across power environments<br>No owned infrastructure</div>
+    </div>
+  </div>
+
+  <div class="legend-row">
+    <div class="legend-item"><div class="legend-dot" style="background:linear-gradient(135deg, var(--teal-core), var(--teal-deeper)); border:2px solid var(--amber);"></div> Integrated Energy + DC</div>
+    <div class="legend-item"><div class="legend-dot" style="background:var(--amber)"></div> Energy-Focused (no DC ops)</div>
+    <div class="legend-item"><div class="legend-dot" style="background:var(--med-gray)"></div> DC Operator (no owned energy)</div>
+    <div class="legend-item"><div class="legend-dot" style="background:#6C5CE7"></div> Neocloud (leased infra)</div>
+  </div>
+  <span class="page-number">5</span>
+</div>
+
+<!-- ============================= SLIDE 6: SB ENERGY COMPARISON ============================= -->
+<div class="slide slide-soft">
+  <span class="confidential">Strictly Private & Confidential</span>
+  <div class="section-label">Global Context</div>
+  <h1 class="slide-title">EXUS in Global Context: The SB Energy Parallel</h1>
+  <div class="slide-subtitle">SB Energy (SoftBank) is the closest global comparable — but focused on the US and extending through to full DC operations. Exus is the European equivalent, focused up to powered land.</div>
+
+  <table class="compare-table">
+    <thead>
+      <tr>
+        <th style="width:22%;">Dimension</th>
+        <th style="width:26%;">SB Energy (US)</th>
+        <th style="width:26%;">EXUS (Europe)</th>
+        <th style="width:26%;">Key Difference</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Scope</strong></td>
+        <td>Full end-to-end: energy → DC construction → DC operations (acquired Studio 151)</td>
+        <td>Energy → powered land → BTM architecture. Does not build/operate the DC itself</td>
+        <td>Exus focuses up to powered land delivery; SB Energy extends through DC operations</td>
+      </tr>
+      <tr>
+        <td><strong>Energy Portfolio</strong></td>
+        <td>3 GW operating solar, 15+ GW pipeline, 12 GWh+ BESS, gas (9.2 GW Ohio)</td>
+        <td>4.1 GW owned across 6 markets, 3.3 GW managed, multi-tech (solar, wind, BESS, gas)</td>
+        <td>Comparable operating scale; Exus more diversified across technologies and geographies</td>
+      </tr>
+      <tr>
+        <td><strong>DC Pipeline</strong></td>
+        <td>Stargate 1.2 GW (OpenAI anchor tenant), additional campuses planned</td>
+        <td>~3.4 GW across 4 projects, 4 countries (Setubal, Belchat&oacute;w, Hohe B&ouml;rde, Valeon)</td>
+        <td>Exus has broader geographic spread across Europe; SB Energy concentrated in Texas</td>
+      </tr>
+      <tr>
+        <td><strong>BTM Approach</strong></td>
+        <td><span class="badge badge-yes">Full BTM</span> Solar + BESS co-located with DC campus</td>
+        <td><span class="badge badge-yes">Full BTM</span> "Energy Island" — solar, wind, BESS, gas, substation around DC perimeter</td>
+        <td>Exus adds Industrial Solutions orchestration layer across 4 supply sources</td>
+      </tr>
+      <tr>
+        <td><strong>Backing</strong></td>
+        <td>SoftBank Group; $1B equity from OpenAI + SoftBank (Jan 2026)</td>
+        <td>Partners Group (since Nov 2023); independent platform with own capital recycling</td>
+        <td>SB Energy depends on SoftBank capital; Exus self-finances via ER rotation</td>
+      </tr>
+      <tr>
+        <td><strong>Market</strong></td>
+        <td>US only (Texas primary, Ohio expansion)</td>
+        <td>Pan-European: Portugal, Poland, Germany, UK, Italy, Spain</td>
+        <td>Exus is the only player replicating this model across multiple European markets</td>
+      </tr>
+      <tr>
+        <td><strong>Integration Model</strong></td>
+        <td>Vertical: owns energy + builds DC + operates DC</td>
+        <td>Platform: owns energy + develops powered land + orchestrates energy solution for DC client</td>
+        <td>Exus is an energy orchestrator; SB Energy is a vertically integrated operator</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="callout">
+    <p>SB Energy validates the model globally. EXUS is building the European version — but with a more sophisticated energy orchestration layer (Industrial Solutions) and without the operational overhead of DC construction and management. The focus on powered land delivery captures the highest-margin, most defensible part of the value chain.</p>
+  </div>
+  <span class="page-number">6</span>
+</div>
+
+<!-- ============================= SLIDE 7: FOUR SUPPLY LAYERS ============================= -->
+<div class="slide slide-dark">
+  <span class="confidential">Strictly Private & Confidential</span>
+  <div class="section-label">Industrial Solutions</div>
+  <h1 class="slide-title">The Orchestration Engine: Four Supply Layers</h1>
+  <div class="slide-subtitle">Industrial Solutions fills the full 24/7 demand profile by aggregating four supply layers into one shaped, bankable energy product.</div>
+
+  <div class="layers-visual">
+    <div class="layer-bar layer-1">
+      <div class="layer-num">01</div>
+      <div class="layer-content">
+        <h4>Behind-the-Meter (BTM)</h4>
+        <p>Co-located energy assets at site — solar, wind, BESS, gas peakers. Lowest cost, full price certainty. This is the Energy Island foundation.</p>
+      </div>
+    </div>
+    <div class="layer-bar layer-2">
+      <div class="layer-num">02</div>
+      <div class="layer-content">
+        <h4>Exus IPP Portfolio</h4>
+        <p>4.1 GW of owned operating assets connected through the grid via structured PPAs — direct supply capacity from Exus Renewables.</p>
+      </div>
+    </div>
+    <div class="layer-bar layer-3">
+      <div class="layer-num">03</div>
+      <div class="layer-content">
+        <h4>Third-Party Managed Assets</h4>
+        <p>3.3 GW surplus capacity from Exus-managed external portfolios — additional supply optionality and hedging capability.</p>
+      </div>
+    </div>
+    <div class="layer-bar layer-4">
+      <div class="layer-num">04</div>
+      <div class="layer-content">
+        <h4>Market Contracts & Real-Time Trading</h4>
+        <p>Residual shaping via standard PPAs, spot markets, grid integration — real-time optimisation fills remaining load gaps.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="callout callout-dark">
+    <p>Industrial Solutions controls the aggregation logic across all four layers. The PPA is the commercial expression of the technical system — Exus does not sell electrons; it designs bankable energy ecosystems translated into contractual structures.</p>
+  </div>
+  <span class="page-number">7</span>
+</div>
+
+<!-- ============================= SLIDE 8: PLATFORM FLYWHEEL ============================= -->
+<div class="slide">
+  <span class="confidential">Strictly Private & Confidential</span>
+  <div class="section-label">Platform Value Creation</div>
+  <h1 class="slide-title">The Self-Reinforcing Flywheel</h1>
+  <div class="slide-subtitle">ER + ED creates four structural dependencies that would not exist in a standalone configuration.</div>
+
+  <div class="dep-grid">
+    <div class="dep-card">
+      <div class="dep-num">01</div>
+      <h4>Balance Sheet Support</h4>
+      <p>ED's competitive positioning begins with credible grid bonds. The EUR 21.1M bond for Setubal was underwritten by ER's contracted revenue base. Less than EUR 5M of ~EUR 30M deployed is drawn cash equity.</p>
+      <div class="dep-stat">EUR 21.1M grid bond</div>
+    </div>
+    <div class="dep-card">
+      <div class="dep-num">02</div>
+      <h4>Energy Cost Advantage</h4>
+      <p>The 40–60% energy cost reduction is the direct output of Exus's proprietary TCO modelling and owned generation. For a 1 GW campus, this saves over €1bn/year vs. standard grid procurement.</p>
+      <div class="dep-stat">~58% cost reduction</div>
+    </div>
+    <div class="dep-card">
+      <div class="dep-num">03</div>
+      <h4>Capital Recycling</h4>
+      <p>ER's develop-to-rotate model funds ED's DevEx. BESS established the develop-to-exit precedent; Skyward is the next rotation. Without ER, ED requires permanent external equity at higher cost.</p>
+      <div class="dep-stat">Self-financing engine</div>
+    </div>
+    <div class="dep-card">
+      <div class="dep-num">04</div>
+      <h4>Shock Absorption</h4>
+      <p>ED carries binary monetisation risk. ER's 4.1 GW asset base absorbs project-level failures. A standalone ED entity would be existentially exposed to a single early-stage failure.</p>
+      <div class="dep-stat">4.1 GW asset base</div>
+    </div>
+  </div>
+
+  <div class="callout">
+    <p>ER does not exist to supply ED. The portfolios were built on their own merits, for their own clients. What makes the combination valuable is the platform layer: balance sheet, TSO access, local teams, energy structuring capability, and capital recycling.</p>
+  </div>
+  <span class="page-number">8</span>
+</div>
+
+<!-- ============================= SLIDE 9: MARKET VALIDATION ============================= -->
+<div class="slide slide-teal">
+  <span class="confidential">Strictly Private & Confidential</span>
+  <div class="section-label">Transaction Evidence</div>
+  <h1 class="slide-title">The Market Is Validating This Model</h1>
+  <div class="slide-subtitle">Every major transaction in 2024–2026 confirms the premium for integrated energy-digital platforms.</div>
+
+  <div class="kpi-row" style="margin-bottom:30px;">
+    <div class="kpi-card" style="background:rgba(255,255,255,0.08); border-color:rgba(255,255,255,0.15);">
+      <div class="kpi-label">Google → Intersect Power</div>
+      <div class="kpi-value">$4.75bn</div>
+      <div class="kpi-source">Dec 2025 · Integrated energy + DC parks</div>
+    </div>
+    <div class="kpi-card" style="background:rgba(255,255,255,0.08); border-color:rgba(255,255,255,0.15);">
+      <div class="kpi-label">GIP/EQT → AES Corp.</div>
+      <div class="kpi-value">$33.4bn</div>
+      <div class="kpi-source">Mar 2026 · Clean power for hyperscalers</div>
+    </div>
+    <div class="kpi-card" style="background:rgba(255,255,255,0.08); border-color:rgba(255,255,255,0.15);">
+      <div class="kpi-label">OpenAI + SoftBank → SB Energy</div>
+      <div class="kpi-value">$1.0bn</div>
+      <div class="kpi-source">Jan 2026 · Stargate powered DC campus</div>
+    </div>
+    <div class="kpi-card" style="background:rgba(255,255,255,0.08); border-color:rgba(255,255,255,0.15);">
+      <div class="kpi-label">Powered Land Valuation</div>
+      <div class="kpi-value">€0.5–1.5M/MW</div>
+      <div class="kpi-source">ACS/GIP benchmark · Pre-construction</div>
+    </div>
+  </div>
+
+  <p class="body-text" style="color:rgba(255,255,255,0.85);">
+    Power sector M&A in 2025 reached <span class="highlight">$141.9 billion</span> across 35 deals — a 5x increase from $28 billion in 2024. Leading infrastructure investors — KKR, EQT, Brookfield, Blackstone — are converging at the energy-digital nexus, deploying capital into platforms that combine power origination, flexibility, and infrastructure delivery rather than standalone assets.
+  </p>
+
+  <p class="body-text" style="color:rgba(255,255,255,0.85);">
+    The message is clear: the market is paying a structural premium for <span class="highlight">companies that own the full energy value chain behind data centres</span>. Exus is the only European platform positioned to capture this premium.
+  </p>
+  <span class="page-number">9</span>
+</div>
+
+<!-- ============================= SLIDE 10: STRATEGIC IMPERATIVES ============================= -->
+<div class="slide slide-dark">
+  <span class="confidential">Strictly Private & Confidential</span>
+  <div class="section-label">Strategic Implications</div>
+  <h1 class="slide-title">Three Imperatives for the Board</h1>
+  <div class="slide-subtitle">The integrated platform thesis is validated by execution and by the market. These are the priorities.</div>
+
+  <div style="display:flex; flex-direction:column; gap:24px; margin-top:20px;">
+    <div style="display:flex; gap:20px; align-items:flex-start;">
+      <div style="font-family:'Montserrat',sans-serif; font-size:3rem; font-weight:900; color:var(--teal-core); line-height:1; min-width:60px;">1</div>
+      <div>
+        <h3 style="font-family:'Montserrat',sans-serif; font-size:1.1rem; font-weight:700; color:#fff; margin-bottom:6px;">Protect the Integration</h3>
+        <p style="color:rgba(255,255,255,0.75); font-size:0.95rem; line-height:1.65; max-width:700px;">The ER + ED platform synergy is the core competitive moat. Any structural separation of the energy-digital interface would eliminate the very advantages that position Exus uniquely. Industrial Solutions must remain the central orchestrator connecting development, commercial, and operational capabilities.</p>
+      </div>
+    </div>
+    <div style="display:flex; gap:20px; align-items:flex-start;">
+      <div style="font-family:'Montserrat',sans-serif; font-size:3rem; font-weight:900; color:var(--teal-core); line-height:1; min-width:60px;">2</div>
+      <div>
+        <h3 style="font-family:'Montserrat',sans-serif; font-size:1.1rem; font-weight:700; color:#fff; margin-bottom:6px;">Scale the Energy Island Model</h3>
+        <p style="color:rgba(255,255,255,0.75); font-size:0.95rem; line-height:1.65; max-width:700px;">The Hohe Börde framework should become the standard playbook across all ED pipeline sites. Each new campus should be developed with its full BTM energy architecture from day one. The Phase 3 pipeline (demand-aligned development) embeds this logic already — accelerate it.</p>
+      </div>
+    </div>
+    <div style="display:flex; gap:20px; align-items:flex-start;">
+      <div style="font-family:'Montserrat',sans-serif; font-size:3rem; font-weight:900; color:var(--teal-core); line-height:1; min-width:60px;">3</div>
+      <div>
+        <h3 style="font-family:'Montserrat',sans-serif; font-size:1.1rem; font-weight:700; color:#fff; margin-bottom:6px;">Communicate the Thesis Externally</h3>
+        <p style="color:rgba(255,255,255,0.75); font-size:0.95rem; line-height:1.65; max-width:700px;">The powered land asset class is attracting massive institutional capital. Exus's differentiation — integrated energy solution, not just grid access — must be clearly articulated to hyperscaler clients, investment partners, and capital allocators. The competitive frameworks in this document provide the positioning architecture.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="callout callout-dark" style="margin-top:30px;">
+    <p>The integrated model is not a strategy choice — it is the strategy. ED is an extension of ER into a segment where the platform's existing capabilities create exceptional value. Very few are doing this globally. In Europe, only Exus.</p>
+  </div>
+  <span class="page-number">10</span>
+</div>
+
+</body>
+</html>
+
